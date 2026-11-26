@@ -1,0 +1,30 @@
+2026-05-16 23:31:47,594 - churn_tests - INFO - ===== Starting churn library tests =====
+2026-05-16 23:31:47,631 - churn_library - INFO - Data loaded successfully. Shape: (10127, 23)
+2026-05-16 23:31:47,632 - root - INFO - test_import: SUCCESS – data loaded
+2026-05-16 23:31:47,632 - root - INFO - test_import: dataframe shape (10127, 23), 'Churn' column present
+2026-05-16 23:31:47,632 - churn_tests - INFO - test_import passed
+2026-05-16 23:31:47,660 - churn_library - INFO - Data loaded successfully. Shape: (10127, 23)
+2026-05-16 23:31:48,845 - churn_library - INFO - EDA complete. Plots saved to ./images/eda
+2026-05-16 23:31:48,845 - root - INFO - test_eda: perform_eda ran without exception
+2026-05-16 23:31:48,845 - root - INFO - test_eda: SUCCESS – all 5 EDA plots saved
+2026-05-16 23:31:48,845 - churn_tests - INFO - test_eda passed
+2026-05-16 23:31:48,855 - churn_library - INFO - Encoding complete for columns: ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category']
+2026-05-16 23:31:48,855 - root - INFO - test_encoder_helper: encoder_helper ran without exception
+2026-05-16 23:31:48,856 - root - INFO - test_encoder_helper: SUCCESS – 5 encoded columns created
+2026-05-16 23:31:48,856 - churn_tests - INFO - test_encoder_helper passed
+2026-05-16 23:31:48,865 - churn_library - INFO - Encoding complete for columns: ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category']
+2026-05-16 23:31:48,869 - churn_library - INFO - Feature engineering complete. Train size: (7088, 19), Test size: (3039, 19)
+2026-05-16 23:31:48,870 - root - INFO - test_perform_feature_engineering: function ran without exception
+2026-05-16 23:31:48,870 - root - INFO - test_perform_feature_engineering: SUCCESS – train (7088, 19), test (3039, 19)
+2026-05-16 23:31:48,871 - churn_tests - INFO - test_perform_feature_engineering passed
+2026-05-16 23:31:48,879 - churn_library - INFO - Encoding complete for columns: ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category']
+2026-05-16 23:31:48,882 - churn_library - INFO - Feature engineering complete. Train size: (7088, 19), Test size: (3039, 19)
+2026-05-16 23:33:42,334 - churn_library - INFO - ROC curve saved.
+2026-05-16 23:33:42,535 - churn_library - INFO - Classification report images saved to ./images/results
+2026-05-16 23:33:42,787 - churn_library - INFO - Feature importance plot saved to ./images/results/feature_importances.png
+2026-05-16 23:33:42,871 - churn_library - INFO - Models saved to ./models
+2026-05-16 23:33:42,872 - root - INFO - test_train_models: train_models ran without exception
+2026-05-16 23:33:42,872 - root - INFO - test_train_models: SUCCESS – 2 model files saved
+2026-05-16 23:33:42,872 - root - INFO - test_train_models: SUCCESS – 4 result images saved
+2026-05-16 23:33:42,872 - churn_tests - INFO - test_train_models passed
+2026-05-16 23:33:42,873 - churn_tests - INFO - ===== All tests passed =====
